@@ -1,0 +1,12 @@
+involves: proj management, database, java se, spring, front end, automated
+
+objective: create crud(create, read, update, delete) application
+
+scope: Jira board - detailed, design phase of architecture, relational database
+functional application - oop, functioning front end + api, acceptable test coverage,
+
+deliverable - read-me file bout application (how to use etc), presentation,
+
+presentation format - introduction, contents, planning, demo, summary, questions
+
+

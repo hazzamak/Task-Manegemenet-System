@@ -1,0 +1,121 @@
+# Cloud Native - Fundamental Project Specification
+
+## Introduction
+
+The purpose of this document is to outline the Fundamental project specification that you will be working on during the training. 
+It contains a complete set of the expectations and requirements for the project.
+
+This project will involve concepts from all core training modules; more specifically, this will involve:
+
+- Project Management
+- Databases
+- Java SE
+- Spring Boot
+- Front-End Development
+- Automated Testing
+
+This is an *individual* project and can be on any subject you deem fit of encapsulating all aspects of the aforementioned modules.
+This could be a business case, such as a library or supermarket system, or something to do with a hobby of yours.
+
+This is purposefully open as we want to endorse creativity and allow you to do a project that you have full command over.
+It is in your interest do something you are passionate about, as experience has shown these to be the best projects.
+
+You should treat this project as a piece of work that you must personally complete, you *must not* collaborate with your peers to complete this project.
+
+## Objective
+
+Your overall objective with this project is the following:
+
+- To create a CRUD application with the utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training.
+
+As Trainers, this enables us too:
+
+- Objectively assess your capability with the technologies and concepts you have been taught.
+- Assess your development against SFIA.
+
+## Scope
+
+The requirements set for the project are below. Note that these are a minimum set of requirements and can be added onto during the duration of the project.
+
+- A Jira board with full expansion on user stories, use cases and tasks needed to complete the project.
+- Clear Documentation from a design phase describing the architecture you will use for your project.
+- A relational database used to store data persistently for the project.  
+- A functional application created in the OOP language, following best practices and design principles, that you have covered during training, this application needs to meet the requirements set on your Kanban Board
+- The application must have a functioning front-end website and integrated API.
+- Fully designed test suites for the application you are creating, as well as automated tests for validation of the application.
+- You must meet an acceptable level of test coverage in your backend and provide consistent reports and evidence that you have done so.
+- Code fully integrated into a Version Control System
+
+You should consider the concept of MVP (Minimum Viable Product) as you plan your project, complete all the requirements above before you add extra functionality that is not specified above.
+
+## Constraints
+
+The time constraint of this application will be discussed when the specification is given out, as this can fluctuate based on several factors.  
+
+The application needs to utilise the technologies discussed during the training modules.
+The tech stack required is the following:
+
+- Kanban Board: Jira
+- Database: SQL Server
+- Programming language: Java (unless stated otherwise)
+- Front-end: HTML, CSS and JavaScript
+- Unit Tests: JUnit and Mockito
+- Integration Tests: MockMVC
+- Version Control: Git
+
+## Deliverable
+
+The final deliverable for this project is the completed application with full documentation around the utilisation of supporting tools.
+The Documentation must be provided as a **README.md** at the root of your folder structure.
+This will require a fully functional application based on the domain that you have chosen.
+A presentation of work will also be required towards the end of the deadline, this presentation will be recorded.
+You will be required to produce weekly reports of any designs and work created throughout the project.
+
+## Presentation
+
+To aid you in creating your presentation the following structure is recommended, however you are free to deviate.
+
+Structure:
+
+- Introduction
+  - Introduce yourself
+  - Introduce the task that was given and what you chose as the topic.
+- Contents
+  - Explain the structure of the presentation
+- Planning
+  - Expand on the briefly topic, why have you chosen it, how it relates to you
+  - Explain your approach to planning this project and how well you were able to follow it
+  - Describe the tools that you used to plan your project and their benefits
+  - Show any diagrams or documentation that helped with Project Planning
+- Expand on technologies you used
+  - Why have you chosen that technology
+  - What did you learn from working with it
+  - What worked / what didn't work
+  - How could you improve the usage of it next time
+- Demo
+  - Demonstrate the project – ensuring you clearly show you meet the MVP
+  - Supportive Tools can also be demonstrated that were used for the project
+- Summary
+  - What went well for the project
+  - What didn't go so well for the project
+  - What could you have done differently
+  - Best things you learned from this project
+- Questions
+  - Be prepared to answer 2 technical questions relating to your project
+
+## Glossary
+
+CRUD – Create, Read, Update, Delete
+
+TDD – Test Driven Development
+
+GCP – Google Cloud Platform
+
+CI – Continuous Integration
+
+API - Application Programming Interface
+
+SFIA- Skills Framework for the Information Age
+
+VCS – Version Control System
+

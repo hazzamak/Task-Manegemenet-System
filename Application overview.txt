@@ -1,0 +1,20 @@
+Project: - Task Management website - 
+
+--A user must be able to upload tasks with:
+	-due date
+	-task description
+	-Priority
+	
+--Add ons:
+	-login page to save tasks to a user
+	-pictures
+	-buttons to navigate through multiple web pages
+
+--Style:
+	-neat and tidy with light colour scheme
+	-buttons to pop up when mouse is over the top
+	-pop up windows to view tasks individually(click the task it will
+	come up as a pop up)
+	-possibility for other custom things depending on work rate
+
+
