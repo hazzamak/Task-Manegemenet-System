@@ -11,5 +11,11 @@ function getInputFromTextBox() {
     console.log(alert);
 }
 
-
+axios({
+    method: 'post',
+    url: '/api/tasks',
+    data: {
+        alert
+    }
+});
 
