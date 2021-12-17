@@ -9,6 +9,8 @@ const addItem = document.querySelector('.Top-button-1')
 const addItem_update = document.querySelector('.Top-button-3');
 const inputForm_update = document.querySelector('.input-form update');
 
+const addItem_delete = document.querySelector('.Top-button-4');
+const inputForm_delete = document.querySelector('.input-form delete');
 
 about_button.addEventListener('click', () => {
     popup_about.style.display = 'block'
@@ -25,3 +27,8 @@ addItem.addEventListener('click', () => {
 addItem_update.addEventListener('click', () => {
     inputForm_update.style.display = 'block'
 })
+
+addItem_delete.addEventListener('click', () => {
+    inputForm_delete.style.display = 'block'
+})
+
