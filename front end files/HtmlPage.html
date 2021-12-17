@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <meta charset="utf-8" />
+    <title>Task Tracker</title>
+</head>
+<body>
+    <div class="Top-buttons">
+        <button class="Top-button-1">New Task</button>
+        <button class="Top-button-2">About</button>
+        <button class="Top-button-3">Update Task</button>
+        <button class="Top-button-4">Delete Task</button>
+    </div>
+    <div class="pop_up_about">
+        <div class="about">
+            <button class="pop_close_about">&times</button>
+            <h2>About Task Tracker</h2>
+            <p>
+                This page is a task tracker. You can
+                add, delte and update tasks and also set
+                priority of tasks so you can manage your
+                time effectively. To do each of these things
+                simply click the buttons and input the data
+                that is requested about the task you wish to upload
+            </p>
+        </div>
+    </div>
+    <div class="input-form update">
+        <div class="inputFormBox update">
+            <form class="New_task update">
+                <input class="userInput" type="text" placeholder="Task id" />
+                <input class="userInput" type="text" placeholder="Task name" />
+                <input class="userInput" type="text" placeholder="Task desc" />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="input-form delete">
+        <div class="inputFormBox delete">
+            <form class="New_task delete">
+                <input class="userInput" type="text" placeholder="Task id" />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="input-form">
+        <div class="inputFormBox">
+            <form class="New_task">
+                <input class="userInput" type="text" placeholder="Task name" />
+                <input class="userInput=" type="text" placeholder="Task description (200 chars)" />
+                <input type="submit" value="submit" />
+            </form>
+
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://t3.ftcdn.net/jpg/01/89/89/86/360_F_189898606_VjgIKFKSiT8ZVNHxxFcXO7bvJD4jVPrq.jpg" width="100" height="30">
+    </div>
+    <div class="taskView">
+
+    </div>
+    <script src="button_handle_script.js"></script>
+    <script src="Connection_script.js"></script>
+</body>
+
+</html>
