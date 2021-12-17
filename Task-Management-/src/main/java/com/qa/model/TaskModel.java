@@ -3,7 +3,7 @@ package com.qa.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "tutorials")
+@Table(name = "tasks")
 public class TaskModel {
 
 	@Id
