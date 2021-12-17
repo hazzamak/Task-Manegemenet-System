@@ -15,7 +15,8 @@ axios({
     method: 'post',
     url: '/api/tasks',
     data: {
-        alert
+        getInputFromTextBox
+
     }
 });
 

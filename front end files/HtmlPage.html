@@ -11,6 +11,7 @@
         <button class="Top-button-2">About</button>
         <button class="Top-button-3">Update Task</button>
         <button class="Top-button-4">Delete Task</button>
+        <button class="Top-button-4">Find Task</button>
     </div>
     <div class="pop_up_about">
         <div class="about">
@@ -28,6 +29,7 @@
     </div>
     <div class="input-form update">
         <div class="inputFormBox update">
+            <button class="pop_close_about">&times</button>
             <form class="New_task update">
                 <input class="userInput" type="text" placeholder="Task id" />
                 <input class="userInput" type="text" placeholder="Task name" />
@@ -38,7 +40,17 @@
     </div>
     <div class="input-form delete">
         <div class="inputFormBox delete">
+            <button class="pop_close_about">&times</button>
             <form class="New_task delete">
+                <input class="userInput" type="text" placeholder="Task id" />
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="input-form findbyid">
+        <div class="inputFormBox findbyid">
+            <button class="pop_close_about">&times</button>
+            <form class="New_task findbyid">
                 <input class="userInput" type="text" placeholder="Task id" />
                 <input type="submit" value="submit" />
             </form>
@@ -46,6 +58,7 @@
     </div>
     <div class="input-form">
         <div class="inputFormBox">
+            <button class="pop_close_about">&times</button>
             <form class="New_task">
                 <input class="userInput" type="text" placeholder="Task name" />
                 <input class="userInput=" type="text" placeholder="Task description (200 chars)" />
